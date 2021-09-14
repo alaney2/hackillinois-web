@@ -26,6 +26,7 @@ function Mentors() {
             firstName={mentor.firstName}
             lastName={mentor.lastName}
             profile={mentor.profile}
+            key={`${mentor.firstName} ${mentor.lastName}`}
           />
         )}
       </div>
