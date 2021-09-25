@@ -5,7 +5,7 @@
 @layer utilities {
   .bg-custom {
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: auto;
     height: auto;
     background-color: #284779;
     width: 100%;
@@ -17,7 +17,10 @@
 }
 
 .Mentors {
-  height: 70vh;
+  height: 80vh;
+  @media screen and (min-width: 768px) {
+    height: 70vh;
+  }
 }
 
 ::-webkit-scrollbar {
