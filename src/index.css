@@ -5,19 +5,15 @@
 @layer utilities {
   .bg-custom {
     min-height: 100vh;
+    min-width: 100vh;
     height: auto;
     background-color: #284779;
     width: 100%;
   }
 }
 
-html {
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
 .App {
-  color: aliceblue
+  color: white;
 }
 
 .Mentors {
