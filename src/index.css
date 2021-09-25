@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .bg-custom {
+    min-height: 100vh;
+    height: auto;
+    background-color: #284779;
+    width: 100%;
+  }
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.App {
+  color: aliceblue
+}
+
+.Mentors {
+  height: 70vh;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  margin-right: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #acd8cc;
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  border-radius: 12px;
+}

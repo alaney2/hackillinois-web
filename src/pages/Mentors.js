@@ -17,9 +17,9 @@ function Mentors() {
   }, [])
   
   return (
-    <div>
-      <h1>Mentors</h1>
-      <div>
+    <div className="py-40 mx-64">
+      <h1 className="text-2xl ml-8 mb-4">MENTORS</h1>
+      <div className="Mentors bg-white bg-opacity-10 rounded-3xl overflow-scroll overflow-x-hidden">
         {mentors.map(mentor => 
           <Mentor 
             description={mentor.description}

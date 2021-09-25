@@ -2,9 +2,8 @@ import Mentors from './pages/Mentors';
 
 function App() {
   return (
-    <div>
-      <header></header>
-      <Mentors />
+    <div className="App bg-custom">
+      <Mentors/>
     </div>
   );
 }
